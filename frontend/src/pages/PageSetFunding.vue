@@ -206,6 +206,9 @@ import { loadCardStatus } from '@/modules/loadCardStatus'
 import hashSha256 from '@/modules/hashSha256'
 import { getDefaultSettings, decodeCardsSetSettings } from '@/stores/cardsSets'
 import { BACKEND_API_ORIGIN } from '@/constants'
+import { useI18nHelpers, type LocaleCode } from '@/modules/initI18n'
+
+const { currentLocale } = useI18nHelpers()
 
 import DefaultLayout from './layouts/DefaultLayout.vue'
 
@@ -216,7 +219,14 @@ const router = useRouter()
 const initializing = ref(true)
 const settings = reactive(getDefaultSettings())
 const amountPerCard = ref(2100)
-const text = ref(t('cards.settings.defaults.invoiceText'))
+
+let textValue = ''
+
+const text = computed({
+  get: () => currentLocale.value && textValue === '' ? t('cards.settings.defaults.invoiceText') : textValue,
+  set: (val) => textValue = val,
+})
+
 const textIsDirty = ref(false)
 const note = ref<string>()
 const noteIsDirty = ref(false)
@@ -301,7 +311,7 @@ const createInvoice = async () => {
     console.error(error)
   }
   creatingInvoice.value = false
-  
+
   if (invoice.value == null) {
     userErrorMessage.value = 'Unable to create funding invoice. Please try again later.'
   }

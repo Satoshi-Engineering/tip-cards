@@ -129,9 +129,9 @@
     "headline": "Set funding",
     "setName": "Set name: {setName}",
     "amountAndUnit": "{amount} BTC",
-    "text": "This set has {numberOfCardsToFund} cards with no sats on them. Specify the amount per card and the message you want the recipient to see in their wallet. The total invoice will be {amountAndUnit}.",
+    "text": "This set has {numberOfCardsToFund} card with no sats on them. Specify the amount per card and the message you want the recipient to see in their wallet. The total invoice will be {amountAndUnit}. | This set has {numberOfCardsToFund} cards with no sats on them. Specify the amount per card and the message you want the recipient to see in their wallet. The total invoice will be {amountAndUnit}.",
     "textFundingNotPossible": "Some cards of this set have already been used. Create a new set to fund a whole set.",
-    "invoiceText": "Fund {numberOfCardsToFund} cards by paying a single invoice of {amountAndUnit}.",
+    "invoiceText": "Fund {numberOfCardsToFund} card by paying a single invoice of {amountAndUnit}. | Fund {numberOfCardsToFund} cards by paying a single invoice of {amountAndUnit}.",
     "textFunded": "All {numberOfCardsToFund} cards of this set have been funded with {amountAndUnitPerCard} each.",
     "form": {
       "amountLabel": "Amount per card",
@@ -211,7 +211,7 @@
       "deleteSetOnServerConfirm": "Do you really want to delete the current Tip Cards set from the server?",
       "setFunding": {
         "headline": "Fund all cards",
-        "intro": "You can fund single Tip Cards by scanning the QR code of a new card. If you want to fund all cards of this set at once, use the \"Set funding\" feature.",
+        "intro": "You can fund a single Tip Card by scanning the QR code of a new card. If you want to fund all cards of this set at once, use the \"Set funding\" feature.",
         "label": "Fund all cards at once",
         "button": "Fund set",
         "disabledReason": "Some cards of this set have already been used. Create a new set to fund a whole set."

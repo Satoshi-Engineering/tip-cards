@@ -1,118 +1,122 @@
 {
-  "general":{
-    "back":"Назад",
-    "cards":"{count} карта | {count} карты"
+  "general": {
+    "back": "Назад",
+    "cards": "{count} карта | {count} карты | {count} карт"
   },
   "nav": {
-    "index": "Home",
-    "cards": "Create",
-    "preview": "Landing page",
-    "about": "About"
+    "index": "Домой",
+    "cards": "Создать",
+    "preview": "Целевая страница",
+    "about": "О нас"
   },
-  "footer":{
-    "support":"Есть вопросы или предложения? Нашли проблему или ошибку? Свяжитесь с нами: {email}."
+  "footer": {
+    "support": "Есть вопросы или предложения? Нашли проблему или ошибку? Свяжитесь с нами: {email}."
   },
-  "landing":{
-    "introGreeting":"Привет!",
-    "introMessageReceiveBtc":{
-      "message":"Вы вот-вот получите {amountAndUnit}",
-      "amountAndUnit":"{amount} биткоин",
-      "footnote":"через сеть Молния"
+  "landing": {
+    "title": "Получите ваш биткойн",
+    "titlePreview": "Предпросмотр – Получите ваш биткойн",
+    "introGreeting": "Приветствуем!",
+    "introMessageReceiveBtc": {
+      "message": "Вы на пороге получения {amountAndUnit}",
+      "amountAndUnit": "{amount} биткойн",
+      "amountAndUnitBtc": "{amount} BTC",
+      "footnoteFiat": "{btc} = {fiat}",
+      "footnote": "через сеть Lightning"
     },
-    "introMessageAlreadyUsed":{
-      "headline":"Похоже, этот QR-код уже был использован.",
-      "message":"Но не волнуйтесь: вы можете приобрести немного биткоинов на криптовалютной бирже (например {exchange}), через биткоин-банкомат (например {atm}) или у криптоброкера (например {broker}) и т.д."
+    "introMessagePreview": {
+      "headline": "Просканируйте Lightning Купон-Карту, чтобы получить немного биткойна.",
+      "message": "Вы можете получить биткойн на бирже обмена (например {exchange}), через биткойн-банкомат (например {atm}) или у криптоброкера (e.g. {broker}) и т.д.."
     },
-    "introMessageJustReceived":{
-      "headline":"Ваш QR-код только что был использован. {emoji}",
-      "message":"Вы можете приобрести больше биткоинов на криптовалютной бирже (например {exchange}), через биткоин-банкомат (например {atm}) или у криптоброкера (например {broker}) и т.д."
+    "introMessageAlreadyUsed": {
+      "headline": "Похоже, что этот QR код уже был использован.",
+      "message": "But don't worry: You can get your own bitcoin at a Crypto exchange (e.g. {exchange}) at a Bitcoin ATM (e.g. {atm}) or from a Crypto broker (e.g. {broker}) etc."
     },
-    "sectionBitcoin":{
-      "paragraphs":{
-        "0":"Биткоин - это <strong>цифровая валюта</strong>.",
-        "1":"Он управляется всеми участниками сети Биткоин, что означает, что он <strong>не подконтролен</strong> ни одному центральному банку, правительству или компании.",
-        "2":"Провести транзакцию (в том числе международную) так же просто, как отсканировать QR-код. Просто попробуйте!"
+    "introMessageJustReceived": {
+      "headline": "Ваш QR код только что был использован. {emoji}",
+      "message": "You can get more bitcoin at a Crypto exchange (e.g. {exchange}) at a Bitcoin ATM (e.g. {atm}) or from a Crypto broker (e.g. {broker}) etc."
+    },
+    "sectionBitcoin": {
+      "paragraphs": {
+        "0": "Биткойн это <strong>цифровая валюта</strong>.",
+        "1": "Он управляется всеми участниками сети, что означает, что он <strong>не подконтролен</strong> банкам, правительствам или какой либо компании.",
+        "2": "Отправка и получение (включая внутреннее использование) легко осуществляется через сканирование QR кода. Давайте попробуем!"
       }
     },
-    "sectionWallet":{
-      "headline":"Скачайте кошелек",
-      "explanation":"Чтобы получать, хранить и тратить биткоины, вам нужен <strong>Lightning-кошелек</strong>.<br>Для ежедневного использования и небольших объемов удобнее всего использовать приложение для смартфона.",
-      "recommendation":"Для начинающих мы рекомендуем {walletOfSatoshi}.",
-      "button":"Скачать Wallet of Satoshi",
-      "other":"Вы также можете попробовать {wallet0}, {wallet1}, {wallet2} или любой другой Lightning-кошелек*.",
-      "otherFootnote":"* который поддерживает сеть Молния и LNURL"
+    "sectionWallet": {
+      "headline": "Загрузить кошелёк",
+      "explanation": "Для приёма, хранения и отправки вашего биткойна, вам необходим <strong>Lightning кошелёк</strong>.<br>Для ежедневного использования и малых сумм наиболее удобны мобильные приложения в телефонах.",
+      "recommendation": "Для начинающих мы рекомендуем {walletOfSatoshi}.",
+      "button": "Загрузить Wallet of Satoshi",
+      "other": "Вы также можете попробовать {wallet0}, {wallet1}, {wallet2} или любой другой Lightning кошелёк*.",
+      "otherFootnote": "* который работает с Lightning и LNURL"
     },
-    "sectionReceive":{
-      "headline":"Получите свои биткоины",
-      "statusNormal":{
-        "explanation":"Как только ваш кошелек установлен,",
-        "step1":"<strong>нажмите</strong> на QR-код ниже или",
-        "step2":"<strong>отсканируйте</strong> QR-код на вашей тип-карте еще раз<br>(используя установленный кошелек)"
+    "sectionReceive": {
+      "headline": "Получите свои биткоины",
+      "statusNormal": {
+        "explanation": "Как только ваш кошелек установлен,",
+        "step1": "<strong>коснитесь</strong> QR кода ниже, или",
+        "step2": "<strong>просканируйте</strong> QR код на вашей Купон карте снова<br>(с помощью приложения кошелька)"
       },
-      "statusReceived":{
-        "congrats":"Подравляем!",
-        "message":"Биткоины только что были переведены на ваш кошелек."
+      "statusReceived": {
+        "congrats": "Поздравляем!",
+        "message": "Биткойн был отправлен на ваш кошелёк."
       }
     },
-    "sectionUse":{
-      "headline":"Используйте ваши биткоины",
-      "message":"Теперь вы можете потратить свои биткоины в магазине или на сайте, принимающем биткоины, перевести их на кошелек Lightning вашего друга или коллеги, или просто ХОДЛить* их.",
-      "messageFootnote":"* ХОДЛить значит хранить и накапливать, это - один из множества мемов биткоин-сообщества",
-      "examplesIntro":"Вот несколько сайтов, где вы можете расплатиться биткоином через Lightning:",
-      "examples":{
-        "saltNDaisy":"Купите экологически чистые мюсли",
-        "satoshistore":"Купить биткоин-мерч",
-        "aprycotMedia":"Биткоин-книги, материалы и многое другое",
-        "copiaro":"Аппаратные кошельки и приспособления для безопасного хранения",
-        "lightningnetworkstores":"Выясните где еще можно использовать биткоин",
-        "coinpages":"Найдите магазины, принимающие биткоин"
+    "sectionUse": {
+      "headline": "Используйте ваши биткоины",
+      "message": "Теперь вы можете потратить свои биткоины в магазине или на сайте, принимающем биткоины, перевести их на кошелек Lightning вашего друга или коллеги, или просто ХОДЛить* их.",
+      "messageFootnote": "* ХОДЛить значит хранить и накапливать, это - один из множества мемов биткоин-сообщества",
+      "examplesIntro": "Вот несколько сайтов, где вы можете расплатиться биткойном через Lightning:",
+      "examples": {
+        "saltNDaisy": "Купите экологически чистые мюсли",
+        "satoshistore": "Shop Bitcoin Outfits",
+        "aprycotMedia": "Bitcoin books, media and more",
+        "copiaro": "Hardware Wallets & HODL tools",
+        "lightningnetworkstores": "Find out what else you could do online",
+        "coinpages": "Find stores that accept bitcoin"
       },
-      "createYourOwnTipCardsHeadline":"Создайте свои собственные ТИП-карты здесь",
-      "createYourOwnTipCardsText":"Хотите подарить своим друзьям или коллегам несколько сатов (1 сат = 0,00000001 биткоина) или оставить кому-то чаевые в биткоине? Нажмите на следующую кнопку, чтобы оформить свои собственные ТИП-карты.",
-      "createYourOwnTipCardsButton":"Создать мои собственные ТИП-карты"
-    },
-    "sectionMore": {
-      "headline": "Больше о Биткоине",
-      "0": {
-        "text": "Больше о Биткоине можно узнать, посетив сайт www.21ideas.org. Там вы можете найти всю самую важную и фундаментальную информацию о Биткоине: статьи, книги, практические гиды и многое другое.",
-        "linkLabel": "www.21ideas.org",
-        "linkHref": "https://www.21ideas.org"
-      }
+      "createYourOwnTipCardsHeadline": "Create your own Tip Cards",
+      "createYourOwnTipCardsText": "Would you like to give your friends or colleagues a few Sats (1 Sat = 0.00000001 Bitcoin) or tip someone in Bitcoin? Click on the following button and configure your personal Tip Cards.",
+      "createYourOwnTipCardsButton": "Create my own Tip Cards"
     },
     "errors": {
       "errorInvalidLnurl": "It seems the LNURL is not from a valid Tip Card.",
       "errorInvalidLandingPage": "Unable to load custom landing page."
     }
   },
-  "funding":{
-    "headline":"Пополнить эту ТИП-карту",
+  "funding": {
+    "title": "Fund your Tip Card",
+    "headline": "Fund this Tip Card",
+    "headlineFunded": "Tip Card has been funded",
+    "headlineUsed": "Tip Card successfully redeemed",
     "headlineSetFunding": "Tip Card Funding",
-    "text":"Эта ТИП-карта еще не пополнена сатами. Укажите сумму и сообщение, которое вы бы хотели, чтобы получатель увидел в своем кошельке.",
+    "text": "This tip card has not been funded with sats yet. Specify the amount and the message you want the recipient to see in their wallet.",
+    "textFunded": "This Tip Card is already funded with ({amountAndUnit}) and can be given to somebody who is in need of some orange pilling.",
+    "textUsed": "This card was funded with {amountAndUnit} and has been redeemed.",
     "textSetFunding": "This card will be funded as soon as the invoice of the set is paid. Please come back later.",
-    "form":{
-      "textHint":"отобразится в кошельке получателя",
-      "notePlaceholder":"Примечания / вручено",
-      "noteHint":"отобразится в разделе статус вашего набора ТИП-карт",
-      "button":"Загрузить карту"
+    "amountAndUnit": "{amount} BTC",
+    "form": {
+      "textHint": "Will be displayed in the recipient's wallet",
+      "notePlaceholder": "Notes / handed out to",
+      "noteHint": "Will be displayed on the status section of your Tip Cards set",
+      "button": "Fund card"
     },
-    "invoiceText":"Пополнить ТИП-карту на {amount} сат:",
-    "invoiceExpired":"Срок действия инвойса для этой карты истек. Пожалуйста, обнулите инвойс для этой карты, чтобы продолжить.",
-    "resetInvoice":"Сбросить ТИП-карту",
-    "lnurlp":{
-      "text":"Отсканируйте QR-код с помощью приложения вашего кошелька или нажмите кнопку {buttonOpenInWallet} для пополнения карты. Вы можете ввести желаемую сумму в приложении кошелька.",
-      "textFunded":"Эта ТИП-карта уже поплнена на ({amountAndUnit}), и ее можно передать кому-то, кому нужна оранжевая пилюля.",
-      "amountAndUnit":"{amount} BTC"
+    "invoiceText": "Fund your Tip Card with {amount} sats:",
+    "invoiceExpired": "The lightning invoice for this card has expired. Please reset the Tip Card to continue.",
+    "resetInvoice": "Reset Tip Card",
+    "resetDisabledTooltip": "This card is already funded with sats.",
+    "lnurlp": {
+      "text": "Scan the QR code with your wallet app or click {buttonOpenInWallet} to fund the card. You can enter the desired amount in the wallet app."
     },
-    "lnurlpExpired":"К сожалению, срок действия платежной ссылки для этой ТИП-карты истек. Обновите карту, чтобы продолжить.",
-    "lnurlpFundedExpired":"К сожалению, срок действия платежной ссылки для этой ТИП-карты истек. Завершите пополнение, чтобы продолжить.",
-    "shared":{
-      "text":"Сканируйте и оплачивайте QR-код столько раз, сколько пожелаете, и {buttonFinish} как только вы готовы.",
-      "textFunded":"Эта ТИП-карта уже поплнена на ({amountAndUnit}) , и ее можно передать кому-то, кому нужна оранжевая пилюля.",
-      "textEmpty":"Эта ТИП-карта пока пуста. Как только на ней появятся саты, вы сможете завершить ее создание.",
-      "textPartiallyFunded":"TЭта ТИП-карта уже поплнена на {amountAndUnit}. Как только вы завершите пополнение, биткоины можно будет вывести.",
-      "amountAndUnit":"{amount} BTC",
-      "buttonFinish":"Завершить пополнение",
-      "buttonMakeShared":"Активировать совместное пополнение для этой ТИП-карты"
+    "lnurlpExpired": "Unfortunately the payment link for this Tip Card expired. Reset the card to continue.",
+    "lnurlpFundedExpired": "Unfortunately the payment link for this Tip Card expired. Complete the funding to continue.",
+    "shared": {
+      "text": "Scan and pay the QR Code as many times as you want and {buttonFinish} as soon as you're done.",
+      "textEmpty": "This Tip Card is still empty. As soon as there are some Sats on it you can complete the card.",
+      "textPartiallyFunded": "This Tip Card is already funded with {amountAndUnit}. As soon as you complete the funding the Bitcoin can be withdrawn.",
+      "buttonFinish": "Complete Funding",
+      "finishDisabledTooltip": "You need to fund this card first.",
+      "buttonMakeShared": "Activate shared funding on this Tip Card"
     }
   },
   "setFunding": {
@@ -121,7 +125,9 @@
     "setName": "Set name: {setName}",
     "amountAndUnit": "{amount} BTC",
     "text": "This set has {numberOfCardsToFund} cards with no sats on them. Specify the amount per card and the message you want the recipient to see in their wallet. The total invoice will be {amountAndUnit}.",
+    "textFundingNotPossible": "Some cards of this set have already been used. Create a new set to fund a whole set.",
     "invoiceText": "Fund {numberOfCardsToFund} cards by paying a single invoice of {amountAndUnit}.",
+    "textFunded": "All {numberOfCardsToFund} cards of this set have been funded with {amountAndUnitPerCard} each.",
     "form": {
       "amountLabel": "Amount per card",
       "smallAmountWarning": "Warning: Small amounts per card may cause issues for the recipient when trying to receive their sats. We recommend to use a minimum of 210 sats per card.",
@@ -134,77 +140,83 @@
       "button": "Fund set"
     },
     "resetInvoice": "Reset Set Invoice",
+    "resetDisabledTooltip": "This set has already been funded",
     "backToSet": "Back to the cards"
   },
-  "index":{
-    "buttonCreate":"Создайте собственный набор ТИП-карт ⚡",
-    "savedCardsSetsHeadline":"Сохраненные наборы ТИП-карт",
-    "noSavedCardsSetsMessage":"В этом браузере не найдено сохраненных наборов ТИП-карт",
-    "unnamedSetNameFallback":"Безымянный набор",
-    "youtube":{
-      "create":{
-        "label":"Создайте",
-        "link":"https://youtu.be/R6p7fUKu4MY"
+  "index": {
+    "buttonLogin": "Login using LNURL-Auth",
+    "buttonCreate": "Create your Tip Cards set ⚡",
+    "savedCardsSetsHeadline": "Saved Tip Cards sets",
+    "noSavedCardsSetsMessage": "No saved Tip Cards sets found in this browser",
+    "unnamedSetNameFallback": "Unnamed set",
+    "youtube": {
+      "create": {
+        "label": "Create",
+        "link": "https://youtu.be/R6p7fUKu4MY"
       },
-      "use":{
-        "label":"Используйте",
-        "link":"https://youtu.be/bFeEPbupdx8"
+      "use": {
+        "label": "Use",
+        "link": "https://youtu.be/bFeEPbupdx8"
       }
     }
   },
-  "cards":{
-    "status":{
-      "headline":"Статус",
-      "noCards":"Ни одна карта еще не была пополнена. Вы сможете увидеть статус всех карт из этого набора здесь после пополнения вашей первой ТИП-карты.",
-      "labelUsed":"Использованные",
-      "labelFunded":"Пополненные",
-      "labelPendingFunding":"Поплнение в процессе",
-      "labelPendingSharedFunding":"Совместное поплнение в процессе",
+  "cards": {
+    "title": "Tip Cards Set",
+    "status": {
+      "headline": "Status",
+      "noCards": "No cards have been funded yet. You will find the status of all cards from this set here after funding your first Tip Card.",
+      "labelUsed": "Redeemed",
+      "labelFunded": "Funded",
+      "labelPendingFunding": "Waiting to be paid",
+      "labelPendingSharedFunding": "Shared funding in progress",
       "labelPendingSetFunding": "Set funding in progress",
-      "labelNote":"Примечание",
-      "reload":"Перезагрузить"
+      "labelNote": "Note",
+      "labelViewed": "Viewed by recipient",
+      "reload": "Reload"
     },
-    "settings":{
-      "headline":"Конфигурация",
-      "numberOfCards":"Количество карт",
-      "cardHeadline":"Заголовок карты",
-      "cardHeadlineDefaultValue": "Привет :)",
-      "cardText":"Текст карты",
-      "cardTextDefaultValue": "Вы получили немного биткоинов (сатоши). 🎉\nОтсканируйте этот QR-код, чтобы узнать как получить свои монеты.",
-      "cardQrCodeLogoLabel":"Лого на QR-коде",
-      "cardQrCodeLogo":{
-        "noLogo":"Без лого"
+    "settings": {
+      "headline": "Configuration",
+      "numberOfCards": "Number of cards",
+      "cardHeadline": "Card headline",
+      "cardText": "Card text",
+      "cardQrCodeLogoLabel": "Logo on QR codes",
+      "cardQrCodeLogo": {
+        "noLogo": "No logo"
       },
       "defaults": {
-        "cardHeadline": "Привет :)",
-        "cardCopytext": "Вы получили немного биткоинов (сатоши). 🎉\nОтсканируйте этот QR-код, чтобы узнать как получить свои монеты.",
+        "cardHeadline": "Hey :)",
+        "cardCopytext": "You got a tip. 🎉\nScan this QR code and learn how to receive bitcoin.",
         "invoiceText": "Have fun with Bitcoin :)"
       }
     },
     "actions": {
       "headline": "Actions",
-      "buttonPrint":"Распечатать ТИП-карты",
-      "buttonDownloadPngs":"Скачать PNG",
-      "setName":"Указать название",
-      "buttonSaveCardsSet":"Сохранить набор ТИП-карт",
-      "buttonDeleteCardsSet":"Удалить сохраненный набор",
-      "saveSetConfirm":"Текущий набор ТИП-карт будет сохранен локально в этом браузере, используя localStorage.\n\nYВы также можете использовать URL-адрес (из адресной строки) для доступа к этому набору ТИП-карт.\n\nПродолжить?",
-      "deleteSetConfirm":"Вы действительно хотите удалить текущий набор ТИП-карт и его настройки из этого браузера?",
+      "printHeadline": "Print",
+      "buttonPrint": "Print Tip Cards",
+      "buttonDownloadPngs": "Download PNGs",
+      "setName": "Set name",
+      "buttonSaveCardsSet": "Save Tip Cards set",
+      "buttonDeleteCardsSet": "Delete saved set",
+      "saveHeadline": "Save",
+      "saveSetConfirm": "The current Tip Cards set will be saved locally in this browser, using localStorage.\n\nYou can also use the URL (from the address bar) to access this Tip Cards set.\n\nContinue?",
+      "deleteSetConfirm": "Do you really want to delete the current Tip Cards set and its settings from this browser?",
       "deleteSetOnServerConfirm": "Do you really want to delete the current Tip Cards set from the server?",
       "setFunding": {
-        "labelAll": "Fund all cards at once",
-        "labelUnfunded": "Fund all unfunded cards",
-        "button": "Load set"
+        "headline": "Fund all cards",
+        "intro": "You can fund single Tip Cards by scanning the QR code of a new card. If you want to fund all cards of this set at once, use the \"Set funding\" feature.",
+        "label": "Fund all cards at once",
+        "button": "Fund set",
+        "disabledReason": "Some cards of this set have already been used. Create a new set to fund a whole set."
       }
     },
     "cards": {
       "headline": "Tip Cards",
-      "filterLabel":"Показать карты:",
-      "filter":{
-        "all":"Все",
-        "unfunded":"Непополненные",
-        "funded":"Пополненные",
-        "used":"Использованные"
+      "filterLabel": "Display cards:",
+      "filter": {
+        "all": "All",
+        "unfunded": "Unfunded",
+        "funded": "Funded",
+        "used": "Redeemed"
       }
     },
     "errors": {
@@ -212,20 +224,20 @@
       "unableToDeleteSet": "Unable to delete set from server."
     }
   },
-  "lightningQrCode":{
-    "buttonOpenInWallet":"Открыть в кошельке",
-    "copyToClipboard":{
-      "lnurl":{
-        "beforeCopy":"Вы также можете {action} с.",
-        "beforeCopyAction":"скопировать LNURL в буфер обмена",
-        "afterCopySuccess":"Скопировано успешно.",
-        "afterCopyNextStep":"Вставьте данные в<br>ваше приложение-кошелек :)"
+  "lightningQrCode": {
+    "buttonOpenInWallet": "Open in wallet",
+    "copyToClipboard": {
+      "lnurl": {
+        "beforeCopy": "You can also {action} to paste it into your wallet app.",
+        "beforeCopyAction": "copy the LNURL to your clipboard",
+        "afterCopySuccess": "Copied successfully.",
+        "afterCopyNextStep": "Paste it into<br>your wallet app now :)"
       },
-      "invoice":{
-        "beforeCopy":"Вы также можете {action} чтобы вставить данные в ваше приложение-кошелек.",
-        "beforeCopyAction":"скопировать инвойс в буфер обмена",
-        "afterCopySuccess":"Скопировано успешно.",
-        "afterCopyNextStep":"Вставьте данные в<br>ваше приложение-кошелек :)"
+      "invoice": {
+        "beforeCopy": "You can also {action} to paste it into your wallet app.",
+        "beforeCopyAction": "copy the invoice to your clipboard",
+        "afterCopySuccess": "Copied successfully.",
+        "afterCopyNextStep": "Paste it into<br>your wallet app now :)"
       }
     }
   },

@@ -1,5 +1,6 @@
 import { nextTick, computed } from 'vue'
 import { createI18n } from 'vue-i18n'
+import { czechPluralRules, russianPluralRules } from '@/modules/initI18nPlurals'
 
 import en from '@/locales/en.json'
 
@@ -14,6 +15,11 @@ export const LOCALES = {
     dir: 'ltr',
     fiat: 'EUR',
   },
+  cs: {
+    name: 'Čeština',
+    dir: 'ltr',
+    fiat: 'CZK',
+  },
   es: {
     name: 'Español',
     dir: 'ltr',
@@ -27,7 +33,7 @@ export const LOCALES = {
   ru: {
     name: 'Русский',
     dir: 'ltr',
-    fiat: 'EUR',
+    fiat: 'RUB',
   },
   hi: {
     name: 'हिन्दी',
@@ -72,6 +78,10 @@ const i18n = createI18n({
   legacy: false,
   allowComposition: true,
   fallbackLocale: 'en',
+  pluralRules: {
+    ru: russianPluralRules,
+    cs: czechPluralRules,
+  },
 })
 i18n.global.setLocaleMessage('en', en)
 
@@ -93,7 +103,7 @@ export const setLocale = async (locale: LocaleCode | undefined = 'en') => {
 
 (async () => {
   await setLocale(getPreferredLocale())
-  await nextTick()
+  // await nextTick() // commented because nextTick() is already in setLocale -> loadLocaleMessages
   await loadLocaleMessages('en') // load EN locale so that the fallback terms are available
 })()
 
