@@ -1,0 +1,272 @@
+{
+  "general": {
+    "back": "Zpět",
+    "cards": "{count} karta | {count} karty | {count} karet"
+  },
+  "nav": {
+    "index": "Domů",
+    "cards": "Založit",
+    "preview": "Vstupní stránka",
+    "about": "O nás"
+  },
+  "footer": {
+    "support": "Nějaké dotazy nebo zpětná vazba? Nebo jste našli problém nebo chybu? Neváhejte nás kontaktovat: {email}."
+  },
+  "landing": {
+    "title": "Získejte svůj bitcoin",
+    "titlePreview": "Náhled - získejte svůj bitcoin",
+    "introGreeting": "Ahoj!",
+    "introMessageReceiveBtc": {
+      "message": "Právě se chystáte obdržet {amountAndUnit}",
+      "amountAndUnit": "{amount} bitcoin",
+      "amountAndUnitBtc": "{amount} BTC",
+      "footnoteFiat": "{btc} = {fiat}",
+      "footnote": "přes síť Lightning"
+    },
+    "introMessagePreview": {
+      "headline": "Naskenujte Dýško-Kartu a získejte nějaké bitcoiny.",
+      "message": "Bitcoiny můžete také získat na crypto-burzách (např. {exchange}) v Bitcoinmatech (např. {atm}) nebo ve směnárnách (např. {broker})"
+    },
+    "introMessageAlreadyUsed": {
+      "headline": "Zdá se, že tento QR kód již byl použit.",
+      "message": "Ale nesmutňěte, bitcoiny můžete také získat na crypto-burzách (např. {exchange}) v Bitcoinmatech (např. {atm}) nebo ve směnárnách (např. {broker})"
+    },
+    "introMessageJustReceived": {
+      "headline": "Váš QR kód byl právě použit. {emoji}",
+      "message": "Nakupte si další bitcoiny na crypto-burzách (např. {exchange}) v Bitcoinmatech (např. {atm}) nebo ve směnárnách (např. {broker})"
+    },
+    "sectionBitcoin": {
+      "paragraphs": {
+        "0": "Bitcoin je <strong>digitální měna</strong>.",
+        "1": "Je spravován všemi členy bitcoinové sítě, což znamená, že <strong>není pod kontrolou</strong> žádné centrální banky, vlády nebo společnosti.",
+        "2": "Transakce (včetně mezinárodních) jsou stejně snadné jako skenování QR kódu. Jen to zkuste!"
+      }
+    },
+    "sectionWallet": {
+      "headline": "Stáhněte si peněženku",
+      "explanation": "Chcete-li přijímat, ukládat a utrácet své bitcoiny, potřebujete <strong>peněženku Lightning</strong>.<br>Pro každodenní použití a malé množství je nejvhodnější aplikace pro chytré telefony.",
+      "recommendation": "Pro začátek doporučujeme {walletOfSatoshi}.",
+      "button": "Stáhnout Wallet of Satoshi",
+      "other": "Můžete také vyzkoušet {wallet0}, {wallet1}, {wallet2}, nebo jakoukoli jinou peněženku Lightning*.",
+      "otherFootnote": "* která umí Lightning a LNURL technologie"
+    },
+    "sectionReceive": {
+      "headline": "Získejte svůj bitcoin",
+      "statusNormal": {
+        "explanation": "Jakmile je vaše peněženka nainstalována,",
+        "step1": "<strong>klepněte</strong> na QR kód níže, nebo",
+        "step2": "<strong>znovu naskenujte</strong> QR kód na Dýško-Kartě<br>(pomocí vaší nově nainstalované penězenkové aplikace)"
+      },
+      "statusReceived": {
+        "congrats": "Gratulujeme!",
+        "message": "Bitcoin byl právě přenesen do vaší peněženky."
+      }
+    },
+    "sectionUse": {
+      "headline": "Použijte svůj bitcoin",
+      "message": "Nyní můžete své bitcoiny utratit v obchodě nebo na webu, který bitcoiny přijímá, přenést je do Lightning peněženky svého přítele nebo kolegy nebo jej jen hodlovat*.",
+      "messageFootnote": "* z anlgického <strong>to hodl</strong> = hold - držet (v angličtině), ušetřit",
+      "examplesIntro": "Zde je několik webových stránek, kde můžete platit Bitcoiny přes Lightning:",
+      "examples": {
+        "saltNDaisy": "Kupte si ekologické müsli",
+        "satoshistore": "Nakupujte Bitcoinové Oblečení",
+        "aprycotMedia": "Bitcoin Knihy, média a další",
+        "copiaro": "Hardwarové peněženky a nástroje HODL",
+        "lightningnetworkstores": "Zjistěte, co jiného můžete dělat online",
+        "coinpages": "Najděte obchody, které přijímají bitcoiny"
+      },
+      "createYourOwnTipCardsHeadline": "Vytvořte si vlastní Dýško-Karty",
+      "createYourOwnTipCardsText": "Chtěli byste dát svým přátelům nebo kolegům pár Satů (1 Sat = 0.00000001 Bitcoin) nebo dát někomu spropitné v Bitcoinu? Klikněte na následující tlačítko a nakonfigurujte své osobní Dýško-Karty.",
+      "createYourOwnTipCardsButton": "Vytvořte si vlastní Dýško-Karty"
+    },
+    "errors": {
+      "errorInvalidLnurl": "Zdá se, že LNURL není z platné Dýško-Karty.",
+      "errorInvalidLandingPage": "Nelze načíst vlastní vstupní stránku."
+    }
+  },
+  "funding": {
+    "title": "Nabijte svou Dýško-Kartu",
+    "headline": "Nabijte tuto Dýško-Kartu",
+    "headlineFunded": "Dýško-Karta byla nabita",
+    "headlineUsed": "Dýško-Karta úspěšně uplatněna",
+    "headlineSetFunding": "Nabití Dýško-Karty",
+    "text": "Tato Dýško-Karta ještě nebyla nabita saty. Zadejte částku a zprávu, kterou má příjemce vidět ve své peněžence.",
+    "textFunded": "Tato Dýško-Karta je již nabita ({amountAndUnit}) a může být předána někomu, kdo potřebuje oranžovou pilulku.",
+    "textUsed": "Tato Dýško-Karta byla financována {amountAndUnit} a byla vybrána.",
+    "textSetFunding": "Tato Dýško-Karta bude nabita, jakmile bude zaplacena vystavená Lightning faktura. Prosím, vraťte se později.",
+    "amountAndUnit": "{amount} BTC",
+    "form": {
+      "textHint": "Zobrazí se v peněžence příjemce",
+      "notePlaceholder": "Poznámka / věnování",
+      "noteHint": "Zobrazí se ve stavové části sady vašich Dýško-Karet",
+      "button": "Nabijte kartu"
+    },
+    "invoiceText": "Nabijte svou Dýško-Kartu {amount} saty:",
+    "invoiceExpired": "Lightning Faktura pro tuto kartu vypršela. Chcete-li pokračovat - resetujte Dýško-Kartu.",
+    "resetInvoice": "Resetovat Dýško-Kartu",
+    "resetDisabledTooltip": "Tato karta je již nabita saty.",
+    "lnurlp": {
+      "text": "Naskenujte QR kód pomocí lighting pěněženky nebo kliknutím na {buttonOpenInWallet} kartu nabijete. Požadovanou částku můžete zadat ve vaší penězence."
+    },
+    "lnurlpExpired": "Platební odkaz na tuto Dýško-Kartu bohužel vypršel. Resetujte kartu a pokračujte.",
+    "lnurlpFundedExpired": "Platební odkaz na tuto Dýško-Kartu bohužel vypršel. Dokončete nabití a pokračujte.",
+    "shared": {
+      "text": "Naskenujte a zaplaťte QR kód tolikrát, kolikrát chcete, a stiskněte tlačítko {buttonFinish}, jakmile budete hotovi.",
+      "textEmpty": "Tato Dýško-Karta je stále prázdná. Jak na kartě budou saty, můžete kartu dokončit.",
+      "textPartiallyFunded": "Tato Dýško-Karta je již nabita částkou {amountAndUnit}. Jakmile dokončíte financování, může být Bitcoin vybrán.",
+      "buttonFinish": "Dokončit nabíjení",
+      "finishDisabledTooltip": "Nejprve musíte tuto kartu dobít.",
+      "buttonMakeShared": "Aktivujte sdílené financování na této Dýško-Kartě"
+    }
+  },
+  "setFunding": {
+    "title": "Nastavit nabití",
+    "headline": "Nastavit nabití",
+    "setName": "Název sady: {setName}",
+    "amountAndUnit": "{amount} BTC",
+    "text": "Tato sada obsahuje {numberOfCardsToFund} kartu bez satů. Zadejte částku na kartu a zprávu, kterou má příjemce vidět ve své peněžence. Celková faktura bude {amountAndUnit}. | Tato sada obsahuje {numberOfCardsToFund} karty bez sats. Zadejte částku na kartu a zprávu, kterou má příjemce vidět ve své peněžence. Celková faktura bude {amountAndUnit}. | Tato sada obsahuje {numberOfCardsToFund} karet bez satů. Zadejte částku na kartu a zprávu, kterou má příjemce vidět ve své peněžence. Celková faktura bude {amountAndUnit}.",
+    "textFundingNotPossible": "Některé karty této sady již byly použity. Vytvořte novou sadu pro financování celé sady.",
+    "invoiceText": "Financujte {numberOfCardsToFund} kartu zaplacením jedné faktury ve výši {amountAndUnit}. | Financujte {numberOfCardsToFund} karty zaplacením jedné faktury ve výši {amountAndUnit}. | Financujte {numberOfCardsToFund} karet zaplacením jedné faktury ve výši {amountAndUnit}.",
+    "textFunded": "Všech {numberOfCardsToFund} karet v tomto setu, bylo nabito částkou {amountAndUnitPerCard}.",
+    "form": {
+      "amountLabel": "Částka za kartu",
+      "smallAmountWarning": "Upozornění: malé částky na kartu mohou příjemci způsobit problémy při pokusu o přijetí satů. Doporučujeme použít minimálně 210 satů na kartu.",
+      "totalAmountLabel": "Částka",
+      "textHint": "Zobrazí se v peněžence příjemce",
+      "notePlaceholder": "Poznámka / věnování",
+      "noteHint": "Zobrazí se ve stavové části sady vašich Dýško-Karet",
+      "landingPagesHeadline": "Vstupní Stránka",
+      "landingPagesHint": "Tato stránka se zobrazí, když je naskenován QR kód financované karty.",
+      "button": "Nabít sadu"
+    },
+    "resetInvoice": "Resetujte fakturu sady",
+    "resetDisabledTooltip": "Tato sada již byla nabita",
+    "backToSet": "Zpět na karty"
+  },
+  "index": {
+    "buttonLogin": "Přihlášení pomocí LNURL-Auth",
+    "buttonCreate": "Vytvořte si sadu Dýško-Karet ⚡",
+    "savedCardsSetsHeadline": "Uložené Dýško-Karty sady",
+    "noSavedCardsSetsMessage": "V tomto prohlížeči nebyly nalezeny žádné uložené sady Dýško-Karet",
+    "unnamedSetNameFallback": "Nepojmenovaná sada",
+    "youtube": {
+      "create": {
+        "label": "Vytvořit",
+        "link": "https://youtu.be/R6p7fUKu4MY"
+      },
+      "use": {
+        "label": "Použít",
+        "link": "https://youtu.be/bFeEPbupdx8"
+      }
+    }
+  },
+  "cards": {
+    "title": "Sada Dýško-Karet",
+    "status": {
+      "headline": "Stav",
+      "noCards": "Dosud nebyly financovány žádné Dýško-Karty. Stav všech karet z této sady najdete zde po financování vaší první Dýško-Karty.",
+      "labelUsed": "Uplatněné",
+      "labelFunded": "Nabité",
+      "labelPendingFunding": "Čeká na nabití",
+      "labelPendingSharedFunding": "Čeká na sdílené financování",
+      "labelPendingSetFunding": "Čeká na nastavení způsobu financování",
+      "labelNote": "Poznámka",
+      "labelViewed": "Zobrazeno příjemcem",
+      "reload": "Znovu načíst"
+    },
+    "settings": {
+      "headline": "Konfigurace",
+      "numberOfCards": "Počet karet",
+      "cardHeadline": "Titulek karty",
+      "cardText": "Text karty",
+      "cardQrCodeLogoLabel": "Logo na QR kódech",
+      "cardQrCodeLogo": {
+        "noLogo": "Žádné logo"
+      },
+      "defaults": {
+        "cardHeadline": "Ahoj :)",
+        "cardCopytext": "Pravě jste obdrželi svoji malinkou část Bitcoinu (satoši, nebo také saty). 🎉\nNaskenujte tento QR kód a zjistěte, jak si vybrat své nově nabyté mince!",
+        "invoiceText": "Bavte se s Bitcoinem :)"
+      }
+    },
+    "actions": {
+      "headline": "Postup",
+      "printHeadline": "Tisk",
+      "buttonPrint": "Tisk Dýško-Karty",
+      "buttonDownloadPngs": "Stáhněte si soubory PNG",
+      "setName": "Nastavit název",
+      "buttonSaveCardsSet": "Uložte sadu Dýško-Karet",
+      "buttonDeleteCardsSet": "Smazat uloženou sadu",
+      "saveHeadline": "Uložit",
+      "saveSetConfirm": "Aktuální sada Dýško-Karet bude uložena lokálně v tomto prohlížeči pomocí localStorage.\n\nMůžete také použít adresu URL (z adresního řádku) pro přístup k této sadě Dýško-Karet.\n\nPokračovat?",
+      "deleteSetConfirm": "Opravdu chcete z tohoto prohlížeče odstranit aktuální sadu Dýško-Karet a její nastavení?",
+      "deleteSetOnServerConfirm": "Opravdu chcete odstranit aktuální sadu Dýško-Karet ze serveru?",
+      "setFunding": {
+        "headline": "Nabijte všechny karty",
+        "intro": "Jednu kartu můžete nabít naskenováním QR kódu nové karty. Pokud chcete financovat všechny karty této sady najednou, použijte funkci \"Nastavit financování\".",
+        "label": "Nabijte všechny karty najednou",
+        "button": "Nabít celou sadu",
+        "disabledReason": "Některé karty z této sady již byly použity. Vytvořte prosím novou sadu pro financování celé sady."
+      }
+    },
+    "cards": {
+      "headline": "Dýško-Karty",
+      "filterLabel": "Zobrazit karty:",
+      "filter": {
+        "all": "Všechny",
+        "unfunded": "Nenabité",
+        "funded": "Nabité",
+        "used": "Použité"
+      }
+    },
+    "errors": {
+      "unableToSaveSet": "Nelze uložit sadu na server.",
+      "unableToDeleteSet": "Nelze odstranit sadu ze serveru."
+    }
+  },
+  "lightningQrCode": {
+    "buttonOpenInWallet": "Otevřít v peněžence",
+    "copyToClipboard": {
+      "lnurl": {
+        "beforeCopy": "\"Můžete také {action} vložit do Lighting peněženky.",
+        "beforeCopyAction": "zkopírujte LNURL do schránky",
+        "afterCopySuccess": "Úspěšně zkopírováno.",
+        "afterCopyNextStep": "Vložte jej nyní<br>do vaší Lighting peněženky :)"
+      },
+      "invoice": {
+        "beforeCopy": "Můžete také {action} vložit do Lighting peněženky.",
+        "beforeCopyAction": "zkopírujte fakturu do schránky",
+        "afterCopySuccess": "Úspěšně zkopírováno.",
+        "afterCopyNextStep": "Vložte jej nyní<br>>do Lighting peněženky :)"
+      }
+    }
+  },
+  "auth": {
+    "modalLogin": {
+      "headline": "Přihlášení pomocí LNURL-Auth",
+      "text": "Přihlaste se a užijte si některé skvělé funkce! Potřebujete lightning peněženku, která podporuje LNURL-Auth.",
+      "loginErrorText": "Něco se pokazilo. Zkuste to prosím později nebo kontaktujte podporu.",
+      "cookieWarning": "Váš přihlášený stav bude uložen jako cookie, dokud se neodhlásíte."
+    },
+    "buttonLogout": "Odhlášení"
+  },
+  "stores": {
+    "cardsSets": {
+      "errors": {
+        "unableToLoadSetsFromBackend": "Nelze načíst sady ze serveru.",
+        "unableToMigrateSets": "Migrace selhala. Sady můžete odstranit ručně a uložit je při přihlášení.",
+        "setBelongsToAnotherUser": "Nelze uložit nepojmenovanou sadu, protože ji již uložil jiný uživatel.",
+        "namedSetBelongsToAnotherUser": "Nelze uložit {name}, protože byl již uložen jiným uživatelem."
+      }
+    }
+  },
+  "components": {
+    "modalResolveLocalStorage": {
+      "headline": "Soubory uložené ve Vašem prohlížeči (místní úložiště localStorage)",
+      "text": "Máte sady uložené lokálně. Chcete-li použít funkci LNURL-Auth, musíme je přesunout na server. Můžete tak učinit kliknutím na \"Migrovat\". Případně se můžete znovu odhlásit a nejprve je ručně odstranit.",
+      "migrate": "Migrovat",
+      "logout": "Odhlášení",
+      "confirmMigrate": "Migrovat teď?"
+    }
+  }
+}
